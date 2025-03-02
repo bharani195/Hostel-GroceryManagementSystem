@@ -1,0 +1,19 @@
+.my-feedback-page {
+    margin: 20px;
+  }
+  
+  .feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .feedback-table th, .feedback-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .feedback-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+  }
+  

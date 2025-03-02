@@ -1,0 +1,66 @@
+   .grocery-requests-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-left: 20px;
+  }
+  
+  .grocery-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grocery-requests-table th, .grocery-requests-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .grocery-requests-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .grocery-requests-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .grocery-requests-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button.approve-btn, button.reject-btn {
+    margin: 0 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button.approve-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.reject-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button.approve-btn:hover {
+    background-color: #218838;
+  }
+  
+  button.reject-btn:hover {
+    background-color: #c82333;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  

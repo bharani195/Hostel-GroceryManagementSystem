@@ -1,0 +1,72 @@
+/* General styles for header */
+.warden-header {
+    background-color: #08ab5a; 
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10p;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Logo styling */
+  .warden-header .warden-logo-container h1 {
+    margin: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+  }
+  
+  /* Navigation styling */
+  .warden-header .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  /* Link styles */
+  .warden-header .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .warden-header .nav-links a:hover {
+    color: #f39c12;
+  }
+  
+  /* Logout button styling */
+  .warden-header .logout-btn {
+    background-color: #e74c3c;
+    
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .warden-header .logout-btn:hover {
+    background-color: #c0392b; 
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .warden-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .warden-header .nav-links {
+      margin-top: 15px;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

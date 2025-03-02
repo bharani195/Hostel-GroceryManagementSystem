@@ -1,0 +1,21 @@
+/* Style for the Warden footer */
+.warden-footer {
+    background-color: #2c3e50; 
+    color: white;
+    text-align: center; 
+    padding: 20px; 
+    font-size: 14px; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+  }
+  
+  /* Optional: Style for the text (in case you want to adjust font, margin, etc.) */
+  .warden-footer p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  

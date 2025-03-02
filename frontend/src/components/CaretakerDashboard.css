@@ -1,0 +1,63 @@
+/* Container Styles */
+.about-container {
+  font-family: Arial, sans-serif;
+  color: #323030;
+  line-height: 1.6;
+}
+
+/* Header */
+.kec-header {
+  background-color: #ffff;
+      color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.kec-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+
+/* Main Content */
+.kec-content {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kec-content h2,
+.kec-content h3 {
+  color: #003366;
+}
+
+.kec-content ul {
+  list-style-type: square;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.kec-content a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.kec-content a:hover {
+  text-decoration: underline;
+}
+
+/* Image Styling */
+.kec-image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.kec-image-container img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

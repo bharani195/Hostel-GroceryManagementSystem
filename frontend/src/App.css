@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-container h1 {
+  color: white;
+}
+
+
+/* In your App.css or main CSS file */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure the body takes full height of the viewport */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add space between items in the header */
+.header h2 {
+  margin: 0;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; 
+}
+
+/* Home page content styles */
+.home-container {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Make sure the content is not overflowing */
+.home-container, .header, .footer {
+  box-sizing: border-box;
+}
+

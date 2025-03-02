@@ -1,0 +1,78 @@
+/* Style for the login page container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9; 
+  }
+  
+  /* Style for the form */
+  .login-form {
+    background-color: #ffffff; 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+  }
+  
+  /* Style for the form heading */
+  .login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  /* Style for the input fields */
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  /* Focused state for inputs */
+  .login-form input:focus {
+    border-color: #3498db; 
+    outline: none;
+  }
+  
+  /* Style for the submit button */
+  .login-form button {
+    background-color: #3498db; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover state for the submit button */
+  .login-form button:hover {
+    background-color: #2980b9; 
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 500px) {
+    .login-form {
+      padding: 30px;
+    }
+  
+    .login-form h2 {
+      font-size: 20px;
+    }
+  
+    .login-form input, .login-form button {
+      font-size: 14px;
+    }
+  }
+  

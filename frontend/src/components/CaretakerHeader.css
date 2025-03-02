@@ -1,0 +1,67 @@
+/* CaretakerHeader.css */
+
+.caretaker-header {
+    background-color: #08ab5a; 
+    color: white; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .caretaker-logo-container h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #FFEB3B; 
+  }
+  
+  .logout-btn {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f; 
+  }
+  
+  @media (max-width: 768px) {
+    .caretaker-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .logout-btn {
+      margin-top: 10px;
+    }
+  }
+  

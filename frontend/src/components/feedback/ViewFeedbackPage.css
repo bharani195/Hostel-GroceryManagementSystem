@@ -1,0 +1,15 @@
+.view-feedback-page {
+    margin: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-table th, .feedback-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  

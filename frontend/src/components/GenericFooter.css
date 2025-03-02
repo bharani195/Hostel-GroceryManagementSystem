@@ -1,0 +1,87 @@
+/*
+
+
+.footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  .footer p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  
+  .footer a {
+    color: #4CAF50; 
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 15px 0;
+    }
+  
+    .footer p {
+      font-size: 14px;
+    }
+  }
+   */
+
+
+   /* GenericFooter.css */
+
+/* General Footer Styles */
+.footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;    
+    margin-top: auto;
+  }
+  
+  /* Footer Text Styling */
+  .footer p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 15px 0;
+    }
+  
+    .footer p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Optional: Add spacing and a subtle effect if needed */
+  .footer a {
+    color: #4CAF50; 
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

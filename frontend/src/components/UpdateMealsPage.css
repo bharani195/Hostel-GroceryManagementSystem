@@ -1,0 +1,136 @@
+/* Update Meals Page Styling */
+.update-meals-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .update-meals-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Table Styling */
+  .meals-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .meals-table th,
+  .meals-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .meals-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .meals-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .meals-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button Styling */
+  .edit-btn,
+  .save-btn,
+  .cancel-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Modal Styling */
+  .edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 400px;
+  }
+  
+  .edit-modal h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .edit-modal label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .edit-modal input,
+  .edit-modal select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .update-meals-page {
+      padding: 15px;
+    }
+  
+    .meals-table th,
+    .meals-table td {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .edit-modal {
+      width: 90%;
+    }
+  }
+  
